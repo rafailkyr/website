@@ -1,0 +1,43 @@
+.back-arrow:hover {
+    cursor: pointer;
+}
+
+.back-arrow {
+    position: relative;
+    padding-bottom: 7px;
+}
+  
+.back-arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background: var(--text-gradient-yellow);
+    border-radius: 3px;
+}
+
+.post-title {
+    margin-top: 10px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.post-text {
+
+    color: var(--light-gray);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-300);
+    line-height: 1.6;    
+      
+}
+
+.post-text p { margin-top: 15px; }
+
+.post-image {
+
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
